@@ -3,7 +3,7 @@
 import { Client, Account, ID } from "appwrite";
 
 const App = () => {
-	const client = new Client().setEndpoint("http://localhost:1234/v1").setProject("nft-mobile-app");
+	const client = new Client().setEndpoint("http://cloud.appwrite.io/v1").setProject("nft-mobile-app");
 
 	async function emailVerify() {
 		var account = new Account(client);
